@@ -13,6 +13,7 @@ class Calculator {
                 if (e.key === 'Enter') {
                     if (parseInt(this.value) === (self.number_1 * self.number_2)) {
                         self.reset();
+                        result.value = "";
                     } else {
                         console.log("nuuul");
                     }
